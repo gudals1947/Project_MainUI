@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt_test_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bt_corner"
+                    android:text="점수 확인" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bt_corner"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="건망증이 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="건망증이 있다면 몇 년 전보다 더 악화됐습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="약속을 잘 잊어버립니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="월 1회 이상 물건을 엉뚱한 곳에 놓는 일이 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="그 물건을 찾지 못할 때 다른 이가 감추거나 훔쳤다고 의심하는 일이 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="낯선 장소에서 방향감각을 잃어버립니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="집에 있지 않거나 여행을 갔을 때 당황합니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="잔돈을 계산하거나 팁을 줄 때 돈을 제대로 지불하지 못하는 경우가 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="약을 먹어야 할 때를 잊거나 약을 먹었는지 아닌지를 모를 때가 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="운전을 잘 못하거나 운전하는 모습이 걱정스러운 경우가 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="전화기, 리모컨, 전자레인지 같은 전자제품 사용에 문제가 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="집 수리가 필요한 곳을 제대로 수리 못하거나 집안일을 제대로 하지 못하는 경우가 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="운동, 수예 같은 취미활동을 줄이거나 그만두었습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="방향감각이 저하되고 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q1_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="이름 말고 다른 단어들을 잘 기억해내지 못합니까?" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bt_corner"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_q2_01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="하루에 했던 이야기나 질문을 여러 번 반복합니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q2_02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="연도, 월, 요일, 날짜를 자주 잊거나 날짜를 하루 1회 이상 확인하는 경우가 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q2_03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="청구서를 지불하거나 돈을 결제할 때 잘 못하는 경우가 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q2_04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="살고 있는 동네처럼 낯익은 환경에서 길을 잃은 적이 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q2_05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="가족이나 친구의 이름을 혼동하는 경우가 있습니까?" />
+
+                    <CheckBox
+                        android:id="@+id/cb_q2_06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="낯익은 사람을 잘 알아보지 못합니까?" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

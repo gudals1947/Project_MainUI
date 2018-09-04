@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "314716271231",
+    "firebase_url": "https://member-46c44.firebaseio.com",
+    "project_id": "member-46c44",
+    "storage_bucket": "member-46c44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314716271231:android:4f8f5eaa5a64d2c2",
+        "android_client_info": {
+          "package_name": "com.example.leedongho.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314716271231-116n4saq9125haim25u9srkrmu6352sp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.leedongho.myapplication",
+            "certificate_hash": "50305c4294ca349b0d69e7d3910ab39c36721987"
+          }
+        },
+        {
+          "client_id": "314716271231-v6pa56fa1h40ns42un7kcth665f5tb7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoUEr0g-Qp5nkwCKCq5QUa9MWFz1s42N0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314716271231-v6pa56fa1h40ns42un7kcth665f5tb7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

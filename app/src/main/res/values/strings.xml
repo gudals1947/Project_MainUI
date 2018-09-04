@@ -1,0 +1,18 @@
+<resources>
+    <string name="name">이름</string>
+    <string name="sex">성별</string>
+    <string name="age">나이</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name">Smart Care</string>
+
+    <string name="self_test">치매 자가 진단</string>
+    <string name="calculation_test">계산력</string>
+    <string name="memorizing_test">기억력</string>
+    <string name="attention_test">주의력</string>
+
+    <string name="facebook_app_id">281589012658053</string>
+    <string name="fb_login_protocol_scheme">fb281589012658053</string>
+</resources>

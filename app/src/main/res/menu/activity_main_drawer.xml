@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_news"
+            android:title="치매 뉴스" />
+        <item
+            android:id="@+id/nav_game"
+            android:icon="@drawable/ic_menu_game"
+            android:title="인지 훈련 게임" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_menu_information"
+            android:title="치매 정보" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_menu_test"
+            android:title="치매 검사" />
+    </group>
+    <item android:title="Management">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="정보 수정" />
+            <item
+                android:id="@+id/nav_score"
+                android:icon="@drawable/ic_menu_score"
+                android:title="점수 확인" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="종료" />
+        </menu>
+    </item>
+</menu>
