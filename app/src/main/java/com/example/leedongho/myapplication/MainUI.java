@@ -32,10 +32,6 @@ import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.Locale;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -93,30 +89,6 @@ public class MainUI extends AppCompatActivity
         event();
     }
 
-    private void BeformIntent() {
-        Intent before_intent = getIntent();
-        first_name = before_intent.getExtras().getString("first_edit_text");
-        last_name = before_intent.getExtras().getString("last_edit_text");
-        sex = before_intent.getExtras().getString("sex");
-        age = before_intent.getExtras().getInt("datePicker_edit_text");
-
-        String temp = first_name + " " + last_name;
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        View header = navigationView.getHeaderView(0);
-
-        TextView tv_name = (TextView) header.findViewById(R.id.tv_name);
-        TextView tv_sex = (TextView) header.findViewById(R.id.tv_sex);
-        TextView tv_age = (TextView) header.findViewById(R.id.tv_age);
-
-        Calendar calendar = new GregorianCalendar(Locale.KOREA);
-        nYear = calendar.get(Calendar.YEAR);
-
-
-        tv_name.setText(auth.getCurrentUser().getDisplayName());
-        tv_sex.setText(auth.getCurrentUser().getEmail());
-//        tv_age.setText("나이 : "+String.valueOf(nYear-age+1)+" 세");
-    }
 
     private void init() {
         ButterKnife.bind(this);

@@ -15,4 +15,6 @@
 
     <string name="facebook_app_id">281589012658053</string>
     <string name="fb_login_protocol_scheme">fb281589012658053</string>
+
+    <string name="setnews"><font Color="@android:color/holo_orange_dark">최신</font>뉴스</string>
 </resources>

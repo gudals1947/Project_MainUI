@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 
 public class FragmentPagerAdapter extends FragmentStatePagerAdapter {
     private final int PAGE_COUNT = 4;
-    private String[] tabTitles = new String[] {"News", "Game", "Info", "TEST"};
+    private String[] tabTitles = new String[]{"News", "Game", "Info", "TEST"};
 
     public FragmentPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -15,11 +15,16 @@ public class FragmentPagerAdapter extends FragmentStatePagerAdapter {
     @Override
     public Fragment getItem(int position) {
         switch (position) {
-            case 0: return new FragmentNewsPage();
-            case 1: return new FragmentGamePage();
-            case 2: return new FragmentInfoPage();
-            case 3: return new FragmentTestPage();
-            default: return null;
+            case 0:
+                return new FragmentNewsPage();
+            case 1:
+                return new FragmentGamePage();
+            case 2:
+                return new FragmentInfoPage();
+            case 3:
+                return new FragmentTestPage();
+            default:
+                return null;
         }
     }
 

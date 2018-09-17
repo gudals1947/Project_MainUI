@@ -15,7 +15,7 @@ public class LoginPassword extends AppCompatActivity {
     private EditText edPassword;
     private Button btPassword;
     private String id;
-    public static final Pattern VALID_PASSWORD_REGEX_ALPHJA_NUM = Pattern.compile("^[a-zA-Z0-9!@.#$%^&*?_~]{4,16}$");
+    public static final Pattern VALID_PASSWORD_REGEX_ALPHJA_NUM = Pattern.compile("^[a-zA-Z0-9!@.#$%^&*?_~]{7,16}$");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +53,7 @@ public class LoginPassword extends AppCompatActivity {
         });
     }
     public boolean validatePassword(String pwStr){
-        Matcher matcher = VALID_PASSWORD_REGEX_ALPHJA_NUM.matcher(pwStr);
-        return  matcher.matches();
+            Matcher matcher = VALID_PASSWORD_REGEX_ALPHJA_NUM.matcher(pwStr);
+            return  matcher.matches();
     }
 }

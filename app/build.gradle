@@ -41,5 +41,6 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.google.firebase:firebase-firestore:11.6.2'
+    implementation files('libs/jsoup-1.11.3.jar')
 }
 apply plugin: 'com.google.gms.google-services'

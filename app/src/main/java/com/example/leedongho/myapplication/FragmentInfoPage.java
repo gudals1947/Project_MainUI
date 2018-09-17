@@ -18,7 +18,6 @@ public class FragmentInfoPage extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // 플레그먼트 인플레이트
         View view = inflater.inflate(R.layout.activity_fragment_info, container, false);
-
         init();
         event();
 

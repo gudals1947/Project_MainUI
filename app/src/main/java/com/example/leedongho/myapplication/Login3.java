@@ -76,9 +76,9 @@ public class Login3 extends AppCompatActivity {
                             new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
-                                    Intent intent = new Intent(Login3.this, MainUI.class);
+//                                    Intent intent = new Intent(Login3.this, MainUI.class);
                                     Toast.makeText(Login3.this, "가입 성공", Toast.LENGTH_SHORT).show();
-                                    startActivity(intent);
+//                                    startActivity(intent);
                                 }
                             }
                     );
